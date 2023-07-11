@@ -28,9 +28,7 @@
 }
 .header-pra {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
   margin-top: 32px;
@@ -44,6 +42,7 @@
   align-items: flex-start;
   gap: 10px;
   margin-top: 32px;
+  border: none;
 }
 .body-section {
   text-align: center;
@@ -74,7 +73,6 @@
 .img-1 {
   width: 210px;
   height: 328px;
-  flex-shrink: 0;
   background: rgba(167, 33, 98, 0.15);
   border-radius: 300px 300px 0px 0px;
   padding-left: 60px;
@@ -92,7 +90,6 @@
 .img-2 {
   width: 210px;
   height: 328px;
-  flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   padding-left: 60px;
@@ -102,7 +99,6 @@
 .img-3 {
   width: 210px;
   height: 328px;
-  flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   padding-left: 60px;
@@ -139,11 +135,11 @@
 .sing-up-btn {
   background: #e55473;
   display: inline-flex;
-  padding: 20px 43px;
+  padding: 10px 33px;
   align-items: flex-start;
-  /* gap: 10px; */
   color: white;
   margin-top: 35px;
+  border: none;
 }
 .Instagram {
   width: 100%;
@@ -176,23 +172,55 @@
   padding-left: 10px 10px;
 }
 .Deals {
-  background-image: url(./Flower\ Asset/.img-2);
+  background-image: url("./Flower-Asset/bng.png");
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.deals-titel {
+  margin-bottom: 10px;
+}
+.deals-pra {
+  color: rgba(148, 144, 144, 0.6);
+  font-family: Lato;
+  margin-top: 20px;
 }
 .footer-section {
   background: #111010;
-  height: 449px;
-  flex-shrink: 0;
   color: white;
   text-align: center;
   margin-top: 50px;
   align-items: center;
-  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.input-section {
+  padding: 10px 12px;
+  font-size: 15px;
+  width: 400px;
+  border: none;
+}
+.footer-flower {
+  color: red;
+  margin-bottom: 10px;
 }
 .footer-titel {
-
-
 }
 .footer-pra {
-
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+.footer-pra2 {
+  color: rgba(148, 144, 144, 0.6);
+  font-family: Lato;
+  margin-top: 20px;
 }
